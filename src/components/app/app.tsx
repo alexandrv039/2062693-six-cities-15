@@ -19,6 +19,7 @@ const placesFound: number = 95;
 
 export default function App ({offers, reviews}: AppPropTypes): JSX.Element {
 
+  // eslint-disable-next-line
   const [activeOffer, setActiveOffer] = useState(0);
   return (
     <BrowserRouter>
